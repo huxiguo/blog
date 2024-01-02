@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "seekhoo",
   description: "seekhoo blog",
+  base: "/blog/",
   themeConfig: {
     search: {
       provider: "local",
